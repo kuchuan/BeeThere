@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func didClickToStep10(_ sender: UIButton) {
+        performSegue(withIdentifier: "toStep10", sender: nil)
+    }
+    
 
 }
 
