@@ -25,7 +25,7 @@ class Step11ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toStep20"{
+        if segue.identifier == "toStep20" {
             let nextVC = segue.destination as! Step20ViewController
             nextVC.value = sender as! String
         }

@@ -8,9 +8,9 @@
 
 import UIKit
 
-class Step20ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class Step20ViewController: UIViewController {
     
-    var question = ["なぜなぜ1回目", "なぜなぜ2回目", "なぜなぜ3回目", "なぜなぜ4回目", "なぜなぜ5回目", "なぜなぜ6回目", "なぜなぜ7回目", "なぜなぜ8回目"]
+    var question = ["なぜ1回目", "なぜ2回目", "なぜ3回目", "なぜ4回目", "なぜ5回目", "なぜ6回目", "なぜ7回目", "なぜ8回目", "なぜ9回目", "なぜ10回目"]
     
     var questionCounter = 1 //TableViewの「なぜ」の数を数える
     
@@ -30,9 +30,15 @@ class Step20ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // Do any additional setup after loading the view.
         textFromStep11.text = value
         
-    
         
     }
+    
+
+}
+
+
+extension Step20ViewController: UITableViewDelegate, UITableViewDataSource {
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -46,7 +52,6 @@ class Step20ViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return cell
     }
     
-
 }
 
 
