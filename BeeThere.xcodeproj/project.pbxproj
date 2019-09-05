@@ -22,6 +22,8 @@
 		488154722320AA8B00F2A90A /* Step40ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488154712320AA8B00F2A90A /* Step40ViewController.swift */; };
 		488154742320AAB100F2A90A /* Step50ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488154732320AAB100F2A90A /* Step50ViewController.swift */; };
 		488154792320AE3500F2A90A /* HexUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488154782320AE3500F2A90A /* HexUIButton.swift */; };
+		4881547B2320C3A200F2A90A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4881547A2320C3A200F2A90A /* WebKit.framework */; };
+		4881547D2320C42600F2A90A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881547C2320C42600F2A90A /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		488154712320AA8B00F2A90A /* Step40ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step40ViewController.swift; sourceTree = "<group>"; };
 		488154732320AAB100F2A90A /* Step50ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step50ViewController.swift; sourceTree = "<group>"; };
 		488154782320AE3500F2A90A /* HexUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexUIButton.swift; sourceTree = "<group>"; };
+		4881547A2320C3A200F2A90A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		4881547C2320C42600F2A90A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D484462916FED20E5FAC98BB /* Pods-BeeThere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeThere.release.xcconfig"; path = "Target Support Files/Pods-BeeThere/Pods-BeeThere.release.xcconfig"; sourceTree = "<group>"; };
 		E5213A0C23D2558FF88CAE4E /* Pods_BeeThere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeeThere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4881547B2320C3A200F2A90A /* WebKit.framework in Frameworks */,
 				0323429E580325BAEBAA2215 /* Pods_BeeThere.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +66,7 @@
 		156403A7636937849C8C9A81 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4881547A2320C3A200F2A90A /* WebKit.framework */,
 				E5213A0C23D2558FF88CAE4E /* Pods_BeeThere.framework */,
 			);
 			name = Frameworks;
@@ -91,6 +97,7 @@
 				488154752320AB1900F2A90A /* ViewControllers */,
 				4837210A22E74B32004BF873 /* AppDelegate.swift */,
 				4837210C22E74B32004BF873 /* ViewController.swift */,
+				4881547C2320C42600F2A90A /* DetailViewController.swift */,
 				4837210E22E74B32004BF873 /* Main.storyboard */,
 				4837211122E74B33004BF873 /* Assets.xcassets */,
 				4837211322E74B33004BF873 /* LaunchScreen.storyboard */,
@@ -249,6 +256,7 @@
 				4837212122E76DF2004BF873 /* Step20ViewController.swift in Sources */,
 				4837210D22E74B32004BF873 /* ViewController.swift in Sources */,
 				488154722320AA8B00F2A90A /* Step40ViewController.swift in Sources */,
+				4881547D2320C42600F2A90A /* DetailViewController.swift in Sources */,
 				4837210B22E74B32004BF873 /* AppDelegate.swift in Sources */,
 				4881546E2320A9E100F2A90A /* Step30ViewController.swift in Sources */,
 				488154792320AE3500F2A90A /* HexUIButton.swift in Sources */,
