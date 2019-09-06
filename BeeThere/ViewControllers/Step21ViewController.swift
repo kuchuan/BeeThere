@@ -26,5 +26,8 @@ class Step21ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func didClickToStep30(_ sender: UIButton) {
+        performSegue(withIdentifier: "toStep30", sender: nil)
+    }
+    
 }

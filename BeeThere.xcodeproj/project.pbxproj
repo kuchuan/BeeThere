@@ -16,6 +16,7 @@
 		4837211D22E76A8A004BF873 /* Step10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4837211C22E76A8A004BF873 /* Step10ViewController.swift */; };
 		4837211F22E76C33004BF873 /* Step11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4837211E22E76C33004BF873 /* Step11ViewController.swift */; };
 		4837212122E76DF2004BF873 /* Step20ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4837212022E76DF2004BF873 /* Step20ViewController.swift */; };
+		484B854923220D6400AAD4C3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484B854823220D6400AAD4C3 /* Item.swift */; };
 		4881546C2320A98F00F2A90A /* Step21ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881546B2320A98F00F2A90A /* Step21ViewController.swift */; };
 		4881546E2320A9E100F2A90A /* Step30ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881546D2320A9E100F2A90A /* Step30ViewController.swift */; };
 		488154702320AA2900F2A90A /* Step31ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881546F2320AA2900F2A90A /* Step31ViewController.swift */; };
@@ -38,6 +39,7 @@
 		4837211C22E76A8A004BF873 /* Step10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step10ViewController.swift; sourceTree = "<group>"; };
 		4837211E22E76C33004BF873 /* Step11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step11ViewController.swift; sourceTree = "<group>"; };
 		4837212022E76DF2004BF873 /* Step20ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step20ViewController.swift; sourceTree = "<group>"; };
+		484B854823220D6400AAD4C3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		4881546B2320A98F00F2A90A /* Step21ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step21ViewController.swift; sourceTree = "<group>"; };
 		4881546D2320A9E100F2A90A /* Step30ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step30ViewController.swift; sourceTree = "<group>"; };
 		4881546F2320AA2900F2A90A /* Step31ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step31ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				488154782320AE3500F2A90A /* HexUIButton.swift */,
+				484B854823220D6400AAD4C3 /* Item.swift */,
 			);
 			path = SubClass;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				4837210B22E74B32004BF873 /* AppDelegate.swift in Sources */,
 				4881546E2320A9E100F2A90A /* Step30ViewController.swift in Sources */,
 				488154792320AE3500F2A90A /* HexUIButton.swift in Sources */,
+				484B854923220D6400AAD4C3 /* Item.swift in Sources */,
 				488154702320AA2900F2A90A /* Step31ViewController.swift in Sources */,
 				4881546C2320A98F00F2A90A /* Step21ViewController.swift in Sources */,
 				4837211F22E76C33004BF873 /* Step11ViewController.swift in Sources */,

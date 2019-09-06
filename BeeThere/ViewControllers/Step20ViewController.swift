@@ -33,6 +33,11 @@ class Step20ViewController: UIViewController {
         
     }
     
+    @IBAction func didClicktoToStep21(_ sender: UIButton) {
+        performSegue(withIdentifier: "toStep21", sender: nil)
+    }
+    
+    
 
 }
 
